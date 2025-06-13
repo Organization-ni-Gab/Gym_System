@@ -1,3 +1,4 @@
+# Ignore build and temporary files
 bin/
 obj/
 .vs/
@@ -5,4 +6,3 @@ obj/
 *.suo
 *.log
 *.tmp
-*.DS_Store
