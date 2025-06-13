@@ -29,6 +29,7 @@ public class CoachController : Controller
         }
 
         [HttpPost]
+
             public async Task <IActionResult> Create (Coach coach)
             {
             var result = await _CoachService.CreateCoachAsync(coach);
@@ -37,8 +38,8 @@ public class CoachController : Controller
             ViewBag.Branch = new SelectList(branches, "BranchID", "BranchName");
             return RedirectToAction("List");
             }
-
-            [HttpGet]
+            
+        [HttpGet]
             public async Task<IActionResult> Edit (int id)
             {
 
@@ -46,6 +47,7 @@ public class CoachController : Controller
                 if (coach == null)
                     return NotFound();
                 return View(coach);
+
             }
 
             [HttpPost]
