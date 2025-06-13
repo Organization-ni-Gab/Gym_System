@@ -38,25 +38,35 @@ public class CoachController : Controller
             return RedirectToAction("List");
             }
 
-       [HttpGet]
+            [HttpGet]
             public async Task<IActionResult> Edit (int id)
             {
-              var coach = await _CoachService.GetCoachID(id);
-              if(coach == null)
-              {
+
+                var coach = await _CoachService.GetCoachID(id);
+                if (coach == null)
                     return NotFound();
-              }    
-
-             return View(coach);
-
+                return View(coach);
             }
 
-        [HttpPost]
-        public async Task<IActionResult> UpdateCoach(Coach coach)
-         {
-        var success = await _CoachService.UpdateCoachAsync(coach);
-            return RedirectToAction("List");
-         }
+            [HttpPost]
+            public async Task<IActionResult> Edit(Coach coach)
+            {
+
+                if (ModelState.IsValid)
+                {
+                    var success = await _CoachService.UpdateCoachAsync(coach);
+                    if (!success)
+                        return BadRequest("request failed!!!");
+                    return RedirectToAction("List");
+                }
+                else
+                {  //if editing is invalid need to return view with validation
+                    return View(coach);
+                }
+        
+            }
+
+    [HttpPost]
 
 
         [HttpPost]
