@@ -1,0 +1,26 @@
+﻿@model Coach 
+
+<form asp-controller="Coach" asp-action="Create" method="post">
+	<div class="form-group">
+		<label>Coach Name</label>
+		<input asp-for="CoachName" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label>Email</label>
+		<input asp-for="Email" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label>Speciality</label>
+		<input asp-for="Specialty" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label asp-for="BranchID" class="contrl-label">Branch</label>
+		<select asp-for="BranchID" class="form-control" asp-items="ViewBag.Branch">
+			<option value="">--SELECT BRANCH--</option>
+		</select>
+	</div>
+	<button type="submit" class="btn btn-primary">Create Coach</button>
+</form>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Coach>
+<h2>Coach List</h2>
+<a class="btn btn-primary" asp-action="Create"> <i class="bi bi-plus-circle me-1"></i>Add Coach</a>
+<table class="table table-bordered text-center">
+	<thead class="thead-light">
+		<tr>
+			<th>Coach</th>
+			<th>Speciality</th>
+			<th>Branch</th>
+			<th>Email</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var coach in Model)
+		{
+			<tr>
+				<td>@coach.CoachName</td>
+				<td>@coach.Specialty</td>
+				<td>@coach.BranchName</td>
+				<td>@coach.Email</td>
+
+				<td class="text-center">
+					<div class="d-flex justify-content-center align-items-center gap-2">
+						<a asp-controller="Coach" asp-action="Edit" asp-route-id="@coach.CoachID" class="btn btn-primary">
+							Edit
+						</a>
+						<form asp-controller="Coach" asp-action="DeleteCoach" asp-route-id="@coach.CoachID" method="post"
+						onsubmit="return confirm ('Are you sure you want to delete?');">
+						<button type="submit" class="btn btn-danger">Delete</button>
+							
+						</form>
+						
+					</div>
+				</td>
+			</tr>
+
+		}
+		
+	</tbody>
+</table>

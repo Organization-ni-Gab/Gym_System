@@ -1,0 +1,32 @@
+﻿@model Coach
+
+<h2>Edit Coach Information</h2>
+
+<form method="post" asp-action="UpdateCoach">
+	<div> 
+	<label>CoachID </label>
+	<input asp-for="CoachID"/>
+	</div>
+
+	<div class="form-group">
+	<label>Coach Name </label>
+	<input asp-for="CoachName" class="form-control"/>
+	</div>
+
+	<div class="form-group">
+		<label>Email</label>
+		<input asp-for="Email" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label>Specialty</label>
+		<input asp-for="Specialty" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label>BranchID</label>
+		<input asp-for="BranchID" class="form-control" />
+	</div>
+
+	<button type="submit" class="btn btn-primary mt-1">Update </button>
+</form>
