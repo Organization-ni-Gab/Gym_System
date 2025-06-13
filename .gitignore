@@ -1,8 +1,14 @@
-# Ignore build and temporary files
+# Build folders
 bin/
 obj/
+
+# VS-specific folders
 .vs/
+
+# User-specific files
 *.user
 *.suo
+
+# Logs and temp files
 *.log
 *.tmp
