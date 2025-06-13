@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\irepositorylayer\\icoachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\servicelayer\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\servicelayer\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\coach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\servicelayer\\iservicelayer\\icoachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Coach.cs",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Coach.cs",
               "RelativeDocumentMoniker": "GymSystem\\Models\\Coach.cs",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Coach\\Create.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\Coach\\Create.cshtml",
@@ -72,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CoachController.cs",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Controllers\\CoachController.cs",
               "RelativeDocumentMoniker": "GymSystem\\Controllers\\CoachController.cs",
               "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Controllers\\CoachController.cs",
               "RelativeToolTip": "GymSystem\\Controllers\\CoachController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwD0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwD0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T07:42:05.665Z",
               "EditorCaption": ""
@@ -93,12 +93,11 @@
               "RelativeToolTip": "GymSystem\\ServiceLayer\\IServiceLayer\\ICoachService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:35:36.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T07:35:36.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CoachService.cs",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\ServiceLayer\\CoachService.cs",
               "RelativeDocumentMoniker": "GymSystem\\ServiceLayer\\CoachService.cs",
@@ -106,12 +105,11 @@
               "RelativeToolTip": "GymSystem\\ServiceLayer\\CoachService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:35:05.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T07:35:05.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ICoachRepository.cs",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\IRepositoryLayer\\ICoachRepository.cs",
               "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\IRepositoryLayer\\ICoachRepository.cs",
@@ -119,12 +117,11 @@
               "RelativeToolTip": "GymSystem\\RepositoryLayer\\IRepositoryLayer\\ICoachRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:35:00.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T07:35:00.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Coach\\List.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\Coach\\List.cshtml",
@@ -137,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Coach\\Edit.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\Coach\\Edit.cshtml",
               "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Coach\\Edit.cshtml",
               "RelativeToolTip": "GymSystem\\Views\\Coach\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-11T14:28:35.966Z",
               "EditorCaption": ""

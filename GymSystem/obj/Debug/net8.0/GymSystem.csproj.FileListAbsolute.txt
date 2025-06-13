@@ -95,3 +95,4 @@ C:\Users\jpnar\Desktop\C# Practice\GymSystem\GymSystem\obj\Debug\net8.0\refint\G
 C:\Users\jpnar\Desktop\C# Practice\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
 C:\Users\jpnar\Desktop\C# Practice\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
 C:\Users\jpnar\Desktop\C# Practice\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\jpnar\Desktop\C# Practice\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.sourcelink.json
