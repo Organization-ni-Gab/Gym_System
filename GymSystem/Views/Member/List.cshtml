@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Member>
+<h2>Members List</h2>
+<a class="btn btn-primary" asp-action="Create"> <i class="bi bi-plus-circle me-1"></i>Sign Up Member</a>
+<table class="table table-bordered text-center">
+	<thead class="thead-light">
+		<tr>
+			<th>ID</th>
+			<th>Complete Name</th>
+			<th>Contact</th>
+			<th>Gender</th>
+			<th>Plan Id</th>
+			<th>Join Date</th>
+			<th>Expiry Date</th>
+			<th>Is Member</th>
+
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var member in Model)
+		{
+			<tr>
+				<td>@member.CustomerId</td>
+				<td>@member.CompleteName()</td>
+				<td>@member.ContactNumber</td>
+				<td>@member.Gender</td>
+				<td>@member.PlanId</td>
+				<td>@member.JoinDate</td>
+				<td>@member.ExpiryDate </td>
+				<td>@member.isMember</td>
+
+
+				<td class="text-center">
+					<div class="d-flex justify-content-center align-items-center gap-2">
+						<a asp-controller="Member" asp-action="Edit" asp-route-id="@member.CustomerId" class="btn btn-primary">
+							Edit
+						</a>
+						<form asp-controller="Member" asp-action="Delete" asp-route-id="@member.CustomerId" method="post"
+						onsubmit="return confirm ('Are you sure you want to delete?');">
+						<button type="submit" class="btn btn-danger">Delete</button>
+							
+						</form>
+						
+					</div>
+				</td>
+			</tr>
+
+		}
+		
+	</tbody>
+</table>

@@ -11,6 +11,15 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("GymSystemConnect
 
 builder.Services.AddScoped<ICoachRepository, CoachRepository>();
 builder.Services.AddScoped<ICoachService, CoachService>();
+
+builder.Services.AddScoped<ISignUpRepository, SignUpRepository>();
+builder.Services.AddScoped<ISignUpService, SignUpService>();
+
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+builder.Services.AddScoped<IMemberService, MemberService>();
+
+builder.Services.AddScoped<IWalkInRepository, WalkInRepository>();
+builder.Services.AddScoped<IWalkInService, WalkInService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
