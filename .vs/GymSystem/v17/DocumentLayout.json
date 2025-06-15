@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\",
+  "WorkspaceRootPath": "E:\\Desktop\\GNG\\Gym_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\plans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\plans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\models\\plans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\plans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\walkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\repositorylayer\\walkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\walkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|e:\\desktop\\gng\\gym_system\\gymsystem\\repositorylayer\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,15 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Payments.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Payments.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Payments.cs",
               "RelativeDocumentMoniker": "GymSystem\\Models\\Payments.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Payments.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Payments.cs",
               "RelativeToolTip": "GymSystem\\Models\\Payments.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,37 +59,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Attendance.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Attendance.cs",
               "RelativeDocumentMoniker": "GymSystem\\Models\\Attendance.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Attendance.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Attendance.cs",
               "RelativeToolTip": "GymSystem\\Models\\Attendance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T13:11:24.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T13:11:24.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Plans.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Plans.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Plans.cs",
               "RelativeDocumentMoniker": "GymSystem\\Models\\Plans.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Plans.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\Models\\Plans.cs",
               "RelativeToolTip": "GymSystem\\Models\\Plans.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T13:09:18.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T13:09:18.748Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SignUpRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
               "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\SignUpRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
               "RelativeToolTip": "GymSystem\\RepositoryLayer\\SignUpRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "WalkInRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\WalkInRepository.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\WalkInRepository.cs",
               "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\WalkInRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\WalkInRepository.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\WalkInRepository.cs",
               "RelativeToolTip": "GymSystem\\RepositoryLayer\\WalkInRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\MemberRepository.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\MemberRepository.cs",
               "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\MemberRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\MemberRepository.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\MemberRepository.cs",
               "RelativeToolTip": "GymSystem\\RepositoryLayer\\MemberRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CoachRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\CoachRepository.cs",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\CoachRepository.cs",
               "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\CoachRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\CoachRepository.cs",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\RepositoryLayer\\CoachRepository.cs",
               "RelativeToolTip": "GymSystem\\RepositoryLayer\\CoachRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,13 +131,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\appsettings.json",
+              "DocumentMoniker": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\appsettings.json",
               "RelativeDocumentMoniker": "GymSystem\\appsettings.json",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\appsettings.json",
+              "ToolTip": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\appsettings.json",
               "RelativeToolTip": "GymSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-14T04:26:17.07Z",
               "EditorCaption": ""
