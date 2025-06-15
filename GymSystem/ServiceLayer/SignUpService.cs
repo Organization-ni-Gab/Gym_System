@@ -1,33 +1,21 @@
 ﻿
-public class SignUpService: ISignUpService
+public class SignupService : ISignupService
 {
-    private readonly ISignUpRepository _signUpRepository;
-    public SignUpService(ISignUpRepository signUpRepository)
+    private readonly ISignupRepository _signupRepository;
+
+    public SignupService(ISignupRepository signupRepository)
     {
-        _signUpRepository = signUpRepository;
+        _signupRepository = signupRepository;
     }
 
-    public async Task<IEnumerable<SignUp>> getAllSignUpAsyn()
+    public async Task<List<Signup>> GetAllSignupsAsync()
     {
-        return await  _signUpRepository.getAllSignUpAsyn();
+        return await _signupRepository.GetAllSignupsAsync();
     }
-    public async Task<bool> InsertSignUpAsync(SignUp signUp)
+
+    public async Task<int> AddSignupAsync(Signup signup)
     {
-        return await _signUpRepository.InsertSignUpAsync(signUp);
-    }
-    public async Task<SignUp> GetIdSignUpAsync(int id)
-    {
-        return await _signUpRepository.GetIdSignUpAsync(id);
-    }
-    public async Task<bool> UpdateSignUpAsync(SignUp signUp)
-    {
-        return await _signUpRepository.UpdateSignUpAsync(signUp);
-    }
-    public async Task<bool> DeleteSignUpAsync(int id)
-    {
-        return await _signUpRepository.DeleteSignUpAsync(id);    
+        return await _signupRepository.AddSignupAsync(signup);
     }
 }
-
-
 

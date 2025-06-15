@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 public class Member
 {
 
-    public int CustomerId { get; set; }
+    public int CustomerID { get; set; }
     [Required]
     public string FirstName { get; set; }
     [Required]
@@ -16,7 +16,7 @@ public class Member
     [Required]
     public string Gender { get; set; }
 
-    public int PlanId { get; set; }
+    public int PlanID { get; set; }
     public DateTime JoinDate { get; set; } 
 
     public DateTime ExpiryDate { get; set; }
