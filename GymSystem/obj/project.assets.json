@@ -2110,23 +2110,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jpnar\\.nuget\\packages\\": {},
+    "C:\\Users\\kaels\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\GymSystem.csproj",
+      "projectUniqueName": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\GymSystem.csproj",
       "projectName": "GymSystem",
-      "projectPath": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\GymSystem.csproj",
-      "packagesPath": "C:\\Users\\jpnar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\obj\\",
+      "projectPath": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\GymSystem.csproj",
+      "packagesPath": "C:\\Users\\kaels\\.nuget\\packages\\",
+      "outputPath": "E:\\Desktop\\GNG\\Gym_System\\GymSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jpnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaels\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
