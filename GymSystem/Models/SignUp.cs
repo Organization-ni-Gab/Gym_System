@@ -10,10 +10,10 @@ public class Signup
     public string LastName { get; set; }
     public string ContactNumber { get; set; }
     public string Gender { get; set; }
-    public int? PlanID { get; set; }
     public DateTime? JoinDate { get; set; } 
-    public DateTime? ExpiryDate { get; set; }
-    public bool? isMember { get; set; }
+    public int? isMember { get; set;}
+
+    public List<int>? checkBoxId { get; set; }
 
 }
 

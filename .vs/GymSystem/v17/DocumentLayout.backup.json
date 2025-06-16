@@ -1,53 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\signup\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\servicelayer\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\servicelayer\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\servicelayer\\iservicelayer\\isignupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\servicelayer\\iservicelayer\\isignupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\repositorylayer\\irepositorylayer\\isignuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\irepositorylayer\\isignuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\jpnar\\desktop\\c# practice\\gymsystem\\gymsystem\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repositorylayer\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,162 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "GymSystem\\appsettings.json",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\appsettings.json",
-              "RelativeToolTip": "GymSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T10:41:24.134Z",
+              "DocumentIndex": 3,
+              "Title": "SignUpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "RelativeToolTip": "GymSystem\\RepositoryLayer\\SignUpRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:40:44.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\Edit.cshtml",
-              "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\Edit.cshtml",
-              "RelativeToolTip": "GymSystem\\Views\\SignUp\\Edit.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:40:32.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignupController.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Controllers\\SignupController.cs",
-              "RelativeDocumentMoniker": "GymSystem\\Controllers\\SignupController.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Controllers\\SignupController.cs",
-              "RelativeToolTip": "GymSystem\\Controllers\\SignupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:53:32.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\List.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\List.cshtml",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\List.cshtml",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\List.cshtml",
               "RelativeToolTip": "GymSystem\\Views\\SignUp\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T09:36:25.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ISignupService.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\ServiceLayer\\IServiceLayer\\ISignupService.cs",
-              "RelativeDocumentMoniker": "GymSystem\\ServiceLayer\\IServiceLayer\\ISignupService.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\ServiceLayer\\IServiceLayer\\ISignupService.cs",
-              "RelativeToolTip": "GymSystem\\ServiceLayer\\IServiceLayer\\ISignupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:25:14.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SignupService.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\ServiceLayer\\SignupService.cs",
-              "RelativeDocumentMoniker": "GymSystem\\ServiceLayer\\SignupService.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\ServiceLayer\\SignupService.cs",
-              "RelativeToolTip": "GymSystem\\ServiceLayer\\SignupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:24:49.864Z",
+              "WhenOpened": "2025-06-16T16:09:41.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SignupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\SignupRepository.cs",
-              "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\SignupRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\SignupRepository.cs",
-              "RelativeToolTip": "GymSystem\\RepositoryLayer\\SignupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\SignUp.cs",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Models\\SignUp.cs",
+              "RelativeToolTip": "GymSystem\\Models\\SignUp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T08:47:08.232Z",
+              "WhenOpened": "2025-06-16T14:58:47.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Program.cs",
-              "RelativeDocumentMoniker": "GymSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Program.cs",
-              "RelativeToolTip": "GymSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\SignUpController.cs",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\SignUpController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:29:51.626Z",
+              "WhenOpened": "2025-06-16T14:57:28.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Create.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\Create.cshtml",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\SignUp\\Create.cshtml",
-              "RelativeToolTip": "GymSystem\\Views\\SignUp\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Create.cshtml*",
+              "RelativeToolTip": "GymSystem\\Views\\SignUp\\Create.cshtml*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:27:10.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISignupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\IRepositoryLayer\\ISignupRepository.cs",
-              "RelativeDocumentMoniker": "GymSystem\\RepositoryLayer\\IRepositoryLayer\\ISignupRepository.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\RepositoryLayer\\IRepositoryLayer\\ISignupRepository.cs",
-              "RelativeToolTip": "GymSystem\\RepositoryLayer\\IRepositoryLayer\\ISignupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:24:02.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "GymSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "GymSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T09:57:05.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Signup.cs",
-              "DocumentMoniker": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Signup.cs",
-              "RelativeDocumentMoniker": "GymSystem\\Models\\Signup.cs",
-              "ToolTip": "C:\\Users\\jpnar\\Desktop\\C# Practice\\GymSystem\\GymSystem\\Models\\Signup.cs",
-              "RelativeToolTip": "GymSystem\\Models\\Signup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:07:59.008Z",
+              "WhenOpened": "2025-06-16T14:37:17.77Z",
               "EditorCaption": ""
             }
           ]

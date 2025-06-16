@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Security.Principal;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -32,5 +33,22 @@ using Microsoft.AspNetCore.Mvc;
             await _signupService.AddSignupAsync(signup);
             return RedirectToAction(nameof(List));
             }
-    }
+
+        public async Task<IActionResult> Delete(Signup signup)
+        {
+            string deleleIds = "";
+            
+            foreach(var id in signup.checkBoxId)
+            {
+                deleleIds += id.ToString() + ",";
+            }
+
+            var isSuccess =await _signupService.DeleteMultipleSignUpAsync(deleleIds);
+ 
+            
+            return RedirectToAction(nameof(List));
+        }
+
+  
+}
 
