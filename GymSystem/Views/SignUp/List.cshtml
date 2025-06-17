@@ -4,37 +4,50 @@
 	ViewData["Title"] = "SignUp";
 }
 <h2>Sign-up List</h2>
+
 <a asp-controller="Signup" asp-action="Create" class="btn btn-primary ">Add Client</a>
 <br />
-<br />
-<form asp-controller="SignUp">
 
-	<button class="btn btn-danger" asp-action="Delete" onsubmit="return confirm ('Are you sure you want to delete?');">Delete</button>
-<table class="table table-bordered text-center mt-3">
-	<thead>
-		<tr>
-			<th>Select</th>
-			<th>First Name</th>
-			<th>Middle Name</th>
-			<th>Last Name</th>
-			<th>Contact Number</th>
-			<th>Gender</th>
-			<th>Date Created</th>
-			<th>Action</th>
-		</tr>
-	</thead>
-	<tbody>
-		@foreach(var customer in Model)
-		{
+<br />
+<form asp-controller="SignUp" method="post">
+
+	<button  class="btn btn-danger" asp-action="Delete" onsubmit="return confirm ('Are you sure you want to delete?');">Delete</button>
+	<table class="table table-bordered text-center mt-3">
+		<thead>
 			<tr>
-				<th><input type="checkbox" name="checkboxID" value="@customer.CustomerID" /></th>
-				<td>@customer.FirstName</td>
-				<td>@customer.MiddleName</td>
-				<td>@customer.LastName</td>
-				<td>@customer.ContactNumber</td>
-				<td>@customer.Gender</td>
-				<td>@customer.JoinDate</td>
-				<td><a asp-controller="Signup" asp-action="Edit" class="btn btn-primary ">Edit</a></td>
+				<th>Select</th>
+				<th>ID</th>
+				<th>First Name</th>
+				<th>Middle Name</th>
+				<th>Last Name</th>
+				<th>Contact Number</th>
+				<th>Gender</th>
+				<th>Date Created</th>
+				<th>Type</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var customer in Model)
+			{
+				<tr>
+					<th><input type="checkbox" name="checkboxID" value="@customer.CustomerID" /></th>
+					<td>@customer.CustomerID</td>
+					<td>@customer.FirstName</td>
+					<td>@customer.MiddleName</td>
+					<td>@customer.LastName</td>
+					<td>@customer.ContactNumber</td>
+					<td>@customer.Gender</td>
+					<td>@customer.JoinDate</td>
+					@if (customer.isMember == 0)
+					{
+						<td>walk in</td>
+					}
+					else
+					{
+						<td>Membered</td>
+					}
+					<td><a asp-controller="Signup" asp-action="Edit" class="btn btn-primary ">Edit</a></td>
 				@* <td>
 					<div></div>
 				</td>  CREATE AJAX ACTION FOR EDIT,WALKIN,MEMBERSHIP*@
@@ -43,3 +56,7 @@
 	</tbody>
 </table>
 </form>
+<br />
+<br />
+<br />
+<h6>@ViewBag.Message</h6>

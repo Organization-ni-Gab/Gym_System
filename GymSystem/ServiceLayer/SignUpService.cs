@@ -22,5 +22,9 @@ public class SignupService : ISignupService
     {
         return await _signupRepository.DeleteMultipleSignUpAsync(deleteCustomerIDs);
     }
+    public async Task<bool> AddSignupAndWalkinAsync(Signup signup)
+    {
+        return await _signupRepository.AddSignupAndWalkinAsync(signup);
+    }
 }
 

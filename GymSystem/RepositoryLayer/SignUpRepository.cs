@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Reflection;
 using Dapper;
 using Microsoft.AspNetCore.Connections.Features;
 using Microsoft.Data.SqlClient;
@@ -71,5 +72,25 @@ public class SignupRepository : ISignupRepository
 
         }
 
+    public async Task<bool> AddSignupAndWalkinAsync(Signup signup)
+    {
+        using( var connection = new SqlConnection(_connectionString))
+        {
+            await connection.OpenAsync();
+            var result = await connection.ExecuteAsync("sp_AddSignupAndWalkin",
+             new
+             {
+                 @fname = signup.FirstName,
+                 @mname = signup.MiddleName,
+                 @lname = signup.LastName,
+                 @gender = signup.Gender,
+                 @contact = signup.ContactNumber,
+                 @isMember = signup.isMember
+             },
+             commandType: CommandType.StoredProcedure);
+            return result > 0;
+        }
     }
+
+}
 

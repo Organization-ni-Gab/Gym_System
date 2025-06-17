@@ -15,6 +15,9 @@ builder.Services.AddScoped<ICoachService, CoachService>();
 builder.Services.AddScoped<ISignupRepository, SignupRepository>();
 builder.Services.AddScoped<ISignupService, SignupService>();
 
+builder.Services.AddScoped<IWalkInRepository, WalkInRepository>();
+builder.Services.AddScoped<IWalkInService, WalkInService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

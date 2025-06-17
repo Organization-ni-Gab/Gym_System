@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WalkIn>
+<h2>WalkIns List</h2>
+
+<table class="table table-bordered text-center">
+	<thead class="thead-light">
+		<tr>
+			<th>ID</th>
+			<th>Complete Name</th>
+			<th>Contact</th>
+			<th>Gender</th>
+			<th>Join Date</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var WalkIn in Model)
+		{
+			<tr>
+				<td>@WalkIn.CustomerID</td>
+				<td>@WalkIn.CompleteName()</td>
+				<td>@WalkIn.ContactNumber</td>
+				<td>@WalkIn.Gender</td>				
+				<td>@WalkIn.JoinDate</td>								
+				<td class="text-center">
+					<div class="d-flex justify-content-center align-items-center gap-2">
+						<a asp-controller="WalkIn" asp-action="Membership" asp-route-id="@WalkIn.CustomerID" class="btn btn-primary">
+							Membership
+						</a>
+						<form asp-controller="WalkIn" asp-action="Delete" asp-route-id="@WalkIn.CustomerID" method="post"
+						onsubmit="return confirm ('Are you sure you want to delete?');">
+						<button type="submit" class="btn btn-danger">Delete</button>
+							
+						</form>
+						
+					</div>
+				</td>
+			</tr>
+
+		}
+		
+	</tbody>
+</table>
