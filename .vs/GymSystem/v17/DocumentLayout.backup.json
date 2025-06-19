@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\signup\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\walkin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\walkin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|c:\\users\\campos\\desktop\\github project\\gym_system\\gymsystem\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469329AE-9C6E-4B36-876C-2B7BF80C1312}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\WalkIn\\List.cshtml",
-              "RelativeDocumentMoniker": "GymSystem\\Views\\WalkIn\\List.cshtml",
-              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\WalkIn\\List.cshtml",
-              "RelativeToolTip": "GymSystem\\Views\\WalkIn\\List.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswB0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Create.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Create.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\SignUp\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T17:44:25.168Z",
+              "WhenOpened": "2025-06-19T17:04:16.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\Edit.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\SignUp\\Edit.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T16:14:49.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\List.cshtml",
               "RelativeDocumentMoniker": "GymSystem\\Views\\SignUp\\List.cshtml",
               "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Views\\SignUp\\List.cshtml",
               "RelativeToolTip": "GymSystem\\Views\\SignUp\\List.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-17T17:23:04.38Z",
               "EditorCaption": ""
@@ -56,9 +73,9 @@
               "Title": "SignUpController.cs",
               "DocumentMoniker": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Controllers\\SignUpController.cs",
               "RelativeDocumentMoniker": "GymSystem\\Controllers\\SignUpController.cs",
-              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Controllers\\SignUpController.cs",
-              "RelativeToolTip": "GymSystem\\Controllers\\SignUpController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACkAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Campos\\Desktop\\github project\\Gym_System\\GymSystem\\Controllers\\SignUpController.cs*",
+              "RelativeToolTip": "GymSystem\\Controllers\\SignUpController.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T17:19:38.957Z",
               "EditorCaption": ""

@@ -1,55 +1,54 @@
 ﻿@model Signup
 <h2>Add Customer</h2>
 
-<form class="Create" method="post" class="gap-3">
+<form method="post" class="form-control bg-light was-validated">
 	<div class="container">
 		<div class="row">
 			<div class="form-group col-md-4">
 				<label>First Name</label>
-				<input asp-for="FirstName" class="form-control " />
-				<span asp-validation-for="FirstName"></span>
+				<input asp-for="FirstName" class="form-control" required />
+				<!--	<span asp-validation-for="FirstName"></span> -->
 			</div>
 
 			<div class="form-group col-md-4">
 				<label>Middle Name</label>
-				<input asp-for="MiddleName" class="form-control" />
-				<span asp-validation-for="MiddleName"></span>
+				<input asp-for="MiddleName" class="form-control" required />
+				<!--	<span asp-validation-for="MiddleName"></span>  -->
 			</div>
 
 			<div class="form-group col-md-4">
 				<label>Last Name</label>
-				<input asp-for="LastName" class="form-control" />
-				<span asp-validation-for="LastName"></span>
+				<input asp-for="LastName" class="form-control" required />
+				<!--	<span asp-validation-for="LastName"></span>  -->
 			</div>
 		</div>
-	
+		<br />
+		<br />
 		<div class="row">
 			<div class="form-group col-md-4">
 				<label>Contact Number</label>
-				<input asp-for="ContactNumber" class="form-control" />
-				<span asp-validation-for="ContactNumber"></span>
+				<input asp-for="ContactNumber" class="form-control" required />
+				<!--	<span asp-validation-for="ContactNumber"></span>  -->
 			</div>
 
 			<div class="form-group col-md-4">
-				<label>Gender</label>
-				</br>
-				<select class="form-group col-md-4" asp-for="Gender">
+				<label for="Gender">Gender</label>
+				<select class="form-select" asp-for="Gender" required>
 					<option value="">select gender</option>
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
 				</select>
-				<span asp-validation-for="Gender"></span>
+				<!--	<span asp-validation-for="Gender"></span> -->
 			</div>
 
 			<div class="form-group col-md-4">
-				<label>Select Options</label>
-				</br>
-				<select class="form-group col-md-4" asp-for="isMember">
+				<label for="isMember">Select Options</label>
+				<select class="form-select" asp-for="isMember" required>
 					<option value="">select type</option>
 					<option value=1>for Membership</option>
 					<option value=0>Walk-In</option>
 				</select>
-				<span asp-validation-for="isMember"></span>
+							<!--	<span asp-validation-for="isMember"></span> -->
 			</div>
 		</div>
 

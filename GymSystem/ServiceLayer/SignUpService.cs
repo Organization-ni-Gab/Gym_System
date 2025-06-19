@@ -3,6 +3,10 @@ public class SignupService : ISignupService
 {
     private readonly ISignupRepository _signupRepository;
 
+    public async Task<Signup> getIdSignUpAsync(int id)
+    {
+        return await _signupRepository.getIdSignUpAsync(id);
+    }
     public SignupService(ISignupRepository signupRepository)
     {
         _signupRepository = signupRepository;
@@ -25,6 +29,11 @@ public class SignupService : ISignupService
     public async Task<bool> AddSignupAndWalkinAsync(Signup signup)
     {
         return await _signupRepository.AddSignupAndWalkinAsync(signup);
+    }
+
+    public async Task<bool> updateSignUp(Signup signup)
+    {
+        return await _signupRepository.updateSignUp(signup);
     }
 }
 

@@ -14,6 +14,35 @@ public class SignupRepository : ISignupRepository
         _connectionString = _configuration.GetConnectionString("GymSystemConnection");
         }
 
+    public async Task<bool> updateSignUp(Signup signup)
+    {
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            await connection.OpenAsync();
+            var result = await connection.ExecuteAsync("sp_updateSignUp",
+                new
+                {
+                    @customerId = signup.CustomerID,
+                    @firstName = signup.FirstName,
+                    @middleName = signup.MiddleName,
+                    @lastName = signup.LastName,
+                    @contactNumber = signup.ContactNumber,
+                    @gender = signup.Gender,
+                    @isMember = signup.isMember
+                }, commandType: CommandType.StoredProcedure
+                );
+            return result > 0;
+        }
+
+    }
+        public async Task<Signup> getIdSignUpAsync(int id)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+            return connection.QueryFirstOrDefault<Signup>("sp_getIdSignUp", new { id = id }, commandType: CommandType.StoredProcedure);
+            }
+        }
+
        public async Task<List<Signup>> GetAllSignupsAsync()
         {
             using (var connection = new SqlConnection(_connectionString))

@@ -34,7 +34,37 @@ using Microsoft.AspNetCore.Mvc;
             return View();
         }
 
+        public async Task<IActionResult> Edit(int id)
+        {
+            var signupId = await _signupService.getIdSignUpAsync(id);
+            return View(signupId);
+        }
+
         [HttpPost]
+
+    public async Task<IActionResult> Edit(Signup signup)
+    {
+        if(ModelState.IsValid)
+        {
+            var isSuccess = await _signupService.updateSignUp(signup);
+            if (isSuccess) 
+            {
+                // need to add code if ismember has changed to for membership need to show form for membership
+                if(signup.isMember == 1)
+                {
+
+                }
+
+                _message = $"Customer named {signup.FirstName}'s record updated successfully.";
+                setViewBag();
+                return RedirectToAction("List");
+            } 
+                
+        }
+        _message = $"Customer named {signup.FirstName}'s record failed to update.";
+        setViewBag();
+        return View(signup);
+    }
         public async Task<IActionResult> Create (Signup signup)
         {
             if (!ModelState.IsValid)

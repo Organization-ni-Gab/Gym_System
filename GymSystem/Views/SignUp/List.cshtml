@@ -5,15 +5,14 @@
 }
 <h2>Sign-up List</h2>
 
-<a asp-controller="Signup" asp-action="Create" class="btn btn-primary ">Add Client</a>
-<br />
 
-<br />
+
 <form asp-controller="SignUp" method="post">
+	<a asp-controller="Signup" asp-action="Create" class="btn btn-primary w-15 ">Add Client</a>
+	<button  class="btn btn-danger w-15 m-1" asp-action="Delete" onsubmit="return confirm ('Are you sure you want to delete?');">Delete</button>
 
-	<button  class="btn btn-danger" asp-action="Delete" onsubmit="return confirm ('Are you sure you want to delete?');">Delete</button>
-	<table class="table table-bordered text-center mt-3">
-		<thead>
+	<table class="table table-striped">
+		<thead class="bg-dark text-white">
 			<tr>
 				<th>Select</th>
 				<th>ID</th>
@@ -47,7 +46,7 @@
 					{
 						<td>Membered</td>
 					}
-					<td><a asp-controller="Signup" asp-action="Edit" class="btn btn-primary ">Edit</a></td>
+					<td><a asp-controller="Signup" asp-action="Edit" asp-route-id="@customer.CustomerID" class="btn btn-warning">Edit</a></td>
 				@* <td>
 					<div></div>
 				</td>  CREATE AJAX ACTION FOR EDIT,WALKIN,MEMBERSHIP*@
